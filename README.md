@@ -1,5 +1,5 @@
 <p>
-  <img src="standard.gif" width="100%" />
+  <img src="standard.gif" width="100%" height="75%" />
 </p>
 <h1>Hello, I am Leepun / Pluto</h1>
 <p>I am a fullstack developer working on various projects also by learning new stuffs everyday. </p>
