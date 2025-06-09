@@ -1,6 +1,11 @@
 <h1>Hello, I am Leepun / Pluto</h1>
 <p>I am a fullstack developer working on various projects also by learning new stuffs everyday. </p>
 <hr>
+<ol style="color: navy; font-family: Arial;">
+  <li>Current - TaskFlow AI</li>
+  <li>Project - ElementalAscension (FullStack)</li>
+</ol>
+
 <p># Contributing currently in TaskFlow AI  </p>
 <h2>🚀 Languages and Tools I Use</h2>9
 <p><a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42" /></a>
