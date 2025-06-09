@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://i.pinimg.com/originals/2e/c5/22/2ec5225db04780709746f0c255123960.gif" width="100%" />
+</p>
 <h1>Hello, I am Leepun / Pluto</h1>
 <p>I am a fullstack developer working on various projects also by learning new stuffs everyday. </p>
 <hr>
