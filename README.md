@@ -1,4 +1,4 @@
-<p><img src="standard.gif" /></p>
+<p><img src="standard (2).gif" /></p>
 <h1>Hello, I am Leepun / Pluto</h1>
 <p>I am a fullstack developer working on various projects also by learning new stuffs everyday. </p>
 <hr>
