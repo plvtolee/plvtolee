@@ -8,23 +8,34 @@
 </ol>
 <hr>
 <h2>🚀 Languages and Tools I Use</h2>9
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)); gap: 10px; max-width: 400px;">
-  <div title="Python"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="42" /></div>
-  <div title="C++"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="42" /></div>
-  <div title="PHP"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="42" /></div>
-  <div title="JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="42" /></div>
-  <div title="Pandas"><img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" width="42" /></div>
-  <div title="Seaborn"><img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="42" /></div>
-  <div title="MySQL"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="42" /></div>
-  <div title="Linux"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="42" /></div>
-  <div title="React"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="42" /></div>
-  <div title="HTML5"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="42" /></div>
-  <div title="CSS3"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="42" /></div>
-  <div title="Selenium"><img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" width="42" /></div>
-  <div title="React Native"><img src="https://reactnative.dev/img/header_logo.svg" width="42" /></div>
-  <div title="Node.js"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="42" /></div>
-  <div title="Bootstrap"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" width="42" /></div>
-</div>
+<canvas id="skillsChart"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+const ctx = document.getElementById('skillsChart').getContext('2d');
+const skillsChart = new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ['Python', 'C++', 'PHP', 'JavaScript', 'Pandas', 'Seaborn', 'MySQL', 'Linux', 'React', 'HTML5', 'CSS3', 'Selenium', 'React Native', 'Node.js', 'Bootstrap'],
+    datasets: [{
+      label: 'Proficiency Level',
+      data: [90, 80, 70, 85, 88, 75, 70, 90, 85, 80, 80, 65, 70, 75, 80],
+      backgroundColor: 'rgba(0, 255, 140, 0.5)',
+      borderColor: 'rgba(0, 255, 140, 1)',
+      borderWidth: 1
+    }]
+  },
+  options: {
+    responsive: true,
+    scales: {
+      y: {
+        beginAtZero: true,
+        max: 100
+      }
+    }
+  }
+});
+</script>
+
 <hr>
 <h2>⚡️ Where to find me</h2>
 <p><a target="_blank" href="https://www.linkedin.com/in/Leepun Ningthoujam" style="display: inline-block;"><img src="https://img.shields.io/badge/linkedin-logo?style=for-the-badge&logo=linkedin&logoColor=white&color=%230a77b6" alt="linkedin" /></a>
