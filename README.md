@@ -3,7 +3,7 @@
 <p>I am a fullstack developer working on various projects also by learning new stuffs everyday. </p>
 <hr>
 <ol style="color: navy; font-family: Arial;">
-  <li>Current - TaskFlow AI</li>
+  <li>Current - TravelPal AI </li>
   <li>Completed - ElementalAscension (FullStack)</li>
 </ol>
 <hr>
